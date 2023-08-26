@@ -7,7 +7,7 @@ const Footer = () => {
 
   return (
     <div
-      className={tw`z-50 bg-black-2 text(white) relative bottom-0 flex justify-between items-center px-3 h-[${FOOTER_HEIGHT}px]`}
+      className={tw`z-50 bg-black-2 text(white) relative bottom-0 flex justify-between items-center px-3 h-[${FOOTER_HEIGHT}px] mo:(w-screen)`}
     >
       <span className={tw`text(12) flex flex-col`}>
         <span className={tw`text(20) font-medium`}>THANKYOU FOR WATCHING</span>

@@ -7,7 +7,7 @@ function LinkButton({ children, path }: { children: ReactNode; path: string }) {
 
   return (
     <div
-      className={tw`flex justify-center items-center gap-1 min-w-[80px] rounded-20 text-white bg-[#555555] px-4 py-1 cursor-pointer`}
+      className={tw`flex justify-center items-center gap-1 min-w-[80px] rounded-20 text-white bg-[#555555] px-4 py-1 cursor-pointer mo:(text-13)`}
       onClick={() => openNewTab(path)}
     >
       {children}

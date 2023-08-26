@@ -20,8 +20,8 @@ export default function Projects() {
   );
 
   return (
-    <div className={tw`relative h-full`}>
-      <div className={tw`h-full flex flex-col mx-[10%] border-x-1`}>
+    <div className={tw`relative h-screen mo:(w-screen)`}>
+      <div className={tw`h-full flex flex-col mx-[10%] border-x-1 mo:(mx-0)`}>
         <div className={tw`flex justify-between items-end border-b-1 px-[30px]`}>
           <h2 className={tw(title, `mt-6`)}>PROJECTS</h2>
           <div className={tw`w-1/4`}>

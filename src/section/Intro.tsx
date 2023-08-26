@@ -7,7 +7,7 @@ const Intro = () => {
   return (
     <div className={tw`w-full flex justify-between items-center px-[10%] py-[10%]`}>
       <div className={tw`flex flex-col max-w-[50%] z-20`}>
-        <div className={tw`font-light text-[6.5vmin]`}>
+        <div className={tw`font-light text-[6.5vmin] mo:(text-[9vmin])`}>
           The only thing that never changes in the world is
           <br />
           <span className={tw`font-bold`}>the truth that change always happens</span>

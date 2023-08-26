@@ -1,5 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/react,yarn,macos
-# Edit at https://www.toptal.com/developers/gitignore?templates=react,yarn,macos
+# Created by https://www.toptal.com/developers/gitignore/api/react,macos,yarn
+# Edit at https://www.toptal.com/developers/gitignore?templates=react,macos,yarn
 
 ### macOS ###
 # General
@@ -67,4 +67,4 @@ sketch
 # and uncomment the following lines
 # .pnp.*
 
-# End of https://www.toptal.com/developers/gitignore/api/react,yarn,macos
+# End of https://www.toptal.com/developers/gitignore/api/react,macos,yarn

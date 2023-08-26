@@ -8,7 +8,7 @@ export default function Contact() {
   const openNewTab = useOpenNewTab();
 
   return (
-    <div className={tw`p-20 flex flex-col items-center gap-10 text(18)`}>
+    <div className={tw`p-20 flex flex-col items-center gap-10 text(18) mo:(w-screen)`}>
       <div className={tw(title)}>CONTACT</div>
 
       <div className={tw`flex flex-col items-center gap-10`}>

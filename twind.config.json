@@ -20,6 +20,10 @@
       "20": "20px"
     },
     "extend": {
+      "screens": {
+        "xs": { "max": "360px" },
+        "mo": { "max": "768px" }
+      },
       "borderColor": {
         "DEFAULT": "black"
       },
