@@ -8,7 +8,7 @@ export default function Skills() {
 
   return (
     <div
-      className={tw`h-screen flex flex-col justify-center mx-[10%] px-[30px] border-x-1 mo:(mx-0 px-[2%] border-none)`}
+      className={tw`h-screen flex flex-col justify-center mx-[10%] px-[30px] border-x-1 mo:(w-screen mx-0 px-[2%] border-none)`}
     >
       <h2 className={tw(title, `mb-6`)}>SKILLS</h2>
       <div className={tw`min-w-[300px] flex justify-start items-center gap-5`}>
@@ -19,7 +19,7 @@ export default function Skills() {
               <div key={skill.name} className={tw`text-18`}>
                 {skill.name}
               </div>
-              <div className={tw`flex justify-start items-center gap-2 mo:(flex-wrap)`}>
+              <div className={tw`flex justify-start items-center gap-2 mo:(flex-wrap whitespace-break-spaces)`}>
                 {skill.contents.map((el, index) => (
                   <div key={el} className={tw`${index === 0 && `text-white bg-primary rounded-10 px-2`}`}>
                     #{el}

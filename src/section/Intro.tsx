@@ -1,8 +1,10 @@
 import { tw } from 'twind';
 import { css } from 'twind/css';
+import { useResponsive } from '../hooks';
 
 const Intro = () => {
-  const roundSize = window.innerHeight - 300;
+  const { isMobile } = useResponsive();
+  const roundSize = window.innerHeight - (isMobile ? 500 : 300);
 
   return (
     <div className={tw`w-full flex justify-between items-center px-[10%] py-[10%]`}>

@@ -18,4 +18,4 @@ export const SECTION_HEIGHT = INNER_HEIGHT - HEADER_HEIGHT;
 
 export const title = apply`text-[60px] font-bold mo:(text-[40px])`;
 export const centerWrapper = apply`w-full flex flex-col mo:(px-5 py-5 ml-0 min-h-0)`;
-export const chip = apply`w-[5px] h-[5px] bg-primary rounded-full`;
+export const chip = apply`min-w-[5px] min-h-[5px] bg-primary rounded-full`;
