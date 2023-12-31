@@ -25,7 +25,7 @@ export default function Projects() {
         <div className={tw`flex justify-between items-end border-b-1 px-[30px]`}>
           <h2 className={tw(title, `mt-6`)}>PROJECTS</h2>
           <div className={tw`w-1/4`}>
-            <img src={cat} alt='run_cat' className={tw`w-[100px]`} />
+            <img src={cat} alt='run_cat' className={tw`w-[100px]`} loading="lazy" />
           </div>
         </div>
         <div className={tw`h-full grid grid-cols-2`}>

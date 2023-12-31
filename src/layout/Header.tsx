@@ -16,7 +16,7 @@ const Header = () => {
       className={tw`z-50 bg-white sticky top-0 flex justify-between items-center border-y-1 px-3 h-[${HEADER_HEIGHT}px] mo:(flex-col justify-center items-start)`}
     >
       <h1 className={tw`text-28 font-bold`}>HENDRIX PORTFOLIO</h1>
-      <nav
+      <ul
         className={tw(
           `flex gap-6`,
           css`
@@ -31,7 +31,7 @@ const Header = () => {
             {el}
           </li>
         ))}
-      </nav>
+      </ul>
     </div>
   );
 };

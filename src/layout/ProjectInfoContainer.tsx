@@ -71,16 +71,18 @@ export default function ProjectInfoContainer({
               SECTION_HEIGHT / 4
             }px])`}
             src={selectedProject?.gif}
+            loading="lazy"
+            alt='selectedProject'
           />
 
-          <div className={tw`flex flex-col gap-2 w-full`}>
+          <ul className={tw`flex flex-col gap-2 w-full`}>
             {selectedProject?.result.map((el, index) => (
               <li className={tw`flex items-center gap-3`} key={index}>
                 <div className={tw(chip)} />
                 {el}
               </li>
             ))}
-          </div>
+          </ul>
         </div>
       </div>
     </div>

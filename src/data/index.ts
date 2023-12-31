@@ -7,6 +7,8 @@ import {
   img_maplody_thumbnail,
   img_meal_to_meal_gif,
   img_meal_to_meal_thumbnail,
+  img_local_market_thumbnail,
+  img_local_market_gif
 } from '../assets';
 
 export const MY_INFO = {
@@ -52,6 +54,16 @@ export const MY_SKILLS = [
 ];
 
 export const MY_PROJECTS = [
+  {
+    name: '인어교주해적단 산지마켓',
+    info: '산지에서 판매자들이 올린 상품을 바로 택배로 받아볼 수 있는 쇼핑몰',
+    color: '#007aff',
+    thumbnail: img_local_market_thumbnail,
+    gif: img_local_market_gif,
+    stack: ['Next.js', 'React', 'typescript', 'Styled Components', 'React Query', 'React Hook Form'],
+    result: ['기획전 및 카테고리 시스템 추가', '품목 및 개시글 관리를 위한 어드민 시스템 구성 추가', '서비스 유지 보수'],
+    site: 'https://market.tpirates.com/',
+  },
   {
     name: 'CREMAO',
     info: 'Naver-Maps-API 및 chart.js등을 이용한 상업용 부동산 검토 및 Tool',
