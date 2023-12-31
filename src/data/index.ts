@@ -21,8 +21,13 @@ export const MY_INFO = {
 
 export const MY_HISTORY = [
   {
-    from: '2022.03',
+    from: '2023.10',
     to: '현재',
+    contents: '더파이러츠 (인어교주해적단, 수산물 시세 정보 및 판매 플랫폼)',
+  },
+  {
+    from: '2022.03',
+    to: '2023.09',
     contents: '오아시스비즈니스 (부동산, 금융 프롭핀테크(PropFinTech) 스타트업)',
   },
   {
@@ -39,10 +44,10 @@ export const MY_HISTORY = [
 
 export const MY_SKILLS = [
   { name: 'Language', contents: ['Typescript', 'JavaScript'] },
-  { name: 'Framework & Library', contents: ['React', 'GraphQL', 'react-query', 'tailwind(twind)', 'naver-maps-api'] },
+  { name: 'Framework & Library', contents: ['React','Next.js', 'GraphQL', 'react-query', 'tailwind(twind)', 'naver-maps-api'] },
   {
     name: 'Tools',
-    contents: ['Git', 'AWS (S3, Rout53, Code Pipeline, CloudFront)', 'Figma', 'Slack', 'Notion', 'Confluence', 'Jira'],
+    contents: ['Git', 'AWS (S3, Rout53, Code Pipeline, CloudFront, EC2)', 'Figma', 'Slack', 'Notion', 'Confluence', 'Jira'],
   },
 ];
 

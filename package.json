@@ -5,7 +5,7 @@
   "type": "module",
   "homepage": "https://hendrix1995.github.io",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --port 3000",
     "build": "tsc && vite build",
     "preview": "vite preview",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",

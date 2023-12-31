@@ -2,7 +2,7 @@
 
 # Hendrix1995's Portfolio
 
-`typescript`, `react`, `vite`,
+`typescript`, `react`, `vite`, `tailwindcss`
 
 <p>
 This is Hendrix's Portfolio for Frontend Developer!
