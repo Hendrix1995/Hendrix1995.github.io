@@ -74,10 +74,11 @@ export const MY_PROJECTS = [
     gif: img_local_market_gif,
     stack: ['React', 'Next.js', 'emotion', 'jotai', 'MUI', 'headless UI'],
     result: [
-      '매뉴 및 상품 개편(2023.?? ~ 2024.04)',
+      '매뉴 및 상품 개편(2023.11 ~ 2024.04)',
       '상품 전체 및 가게 상세, 옵션 정책 변경에 따른 앱 전반에 대한 개편',
       '장바구니 개편 및 결제 연결 개편',
       '최장 약 4 ~ 5년의 레거시 정리 및 리팩토링',
+      '기획과정 전반 참여 및 수정',
       '서비스 유지 보수',
     ],
     site: 'https://tpirates.com/',
