@@ -23,7 +23,7 @@ export default function ProjectInfoContainer({
       } w-full transition ease-in-out duration-700 flex flex-col`}
     >
       <div className={tw`bg-white min-h-screen p-10 flex flex-col gap-5`}>
-        <div className={tw`flex justify-between items-center`}>
+        <div className={tw`flex justify-between items-start`}>
           <div className={tw(title)}>{selectedProject?.name}</div>
           <Icon name='close' onClick={() => setIsMoveRight(false)} size={isDesktop ? 80 : 40} />
         </div>
@@ -71,7 +71,7 @@ export default function ProjectInfoContainer({
               SECTION_HEIGHT / 4
             }px])`}
             src={selectedProject?.gif}
-            loading="lazy"
+            loading='lazy'
             alt='selectedProject'
           />
 

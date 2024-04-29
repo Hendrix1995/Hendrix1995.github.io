@@ -1,10 +1,7 @@
 import { tw } from 'twind';
 import { FOOTER_HEIGHT, IconTab } from './index';
-import { useOpenNewTab } from '../hooks';
 
 const Footer = () => {
-  const openNewTab = useOpenNewTab();
-
   return (
     <div
       className={tw`z-50 bg-black-2 text(white) relative bottom-0 flex justify-between items-center px-3 h-[${FOOTER_HEIGHT}px] mo:(w-screen)`}

@@ -8,7 +8,8 @@ import {
   img_meal_to_meal_gif,
   img_meal_to_meal_thumbnail,
   img_local_market_thumbnail,
-  img_local_market_gif
+  img_local_market_gif,
+  img_fish_market_thumbnail,
 } from '../assets';
 
 export const MY_INFO = {
@@ -46,14 +47,41 @@ export const MY_HISTORY = [
 
 export const MY_SKILLS = [
   { name: 'Language', contents: ['Typescript', 'JavaScript'] },
-  { name: 'Framework & Library', contents: ['React','Next.js', 'GraphQL', 'react-query', 'tailwind(twind)', 'naver-maps-api'] },
+  {
+    name: 'Framework & Library',
+    contents: ['React', 'Next.js', 'GraphQL', 'react-query', 'tailwind(twind)', 'naver-maps-api'],
+  },
   {
     name: 'Tools',
-    contents: ['Git', 'AWS (S3, Rout53, Code Pipeline, CloudFront, EC2)', 'Figma', 'Slack', 'Notion', 'Confluence', 'Jira'],
+    contents: [
+      'Git',
+      'AWS (S3, Rout53, Code Pipeline, CloudFront, EC2)',
+      'Figma',
+      'Slack',
+      'Notion',
+      'Confluence',
+      'Jira',
+    ],
   },
 ];
 
 export const MY_PROJECTS = [
+  {
+    name: '인어교주해적단 수산시장',
+    info: '노량진 및 전국 수산시장에서 실시간으로 포장, 배달 주문, 결제를 다루는 서비스',
+    color: '#62778E',
+    thumbnail: img_fish_market_thumbnail,
+    gif: img_local_market_gif,
+    stack: ['React', 'Next.js', 'emotion', 'jotai', 'MUI', 'headless UI'],
+    result: [
+      '매뉴 및 상품 개편(2023.?? ~ 2024.04)',
+      '상품 전체 및 가게 상세, 옵션 정책 변경에 따른 앱 전반에 대한 개편',
+      '장바구니 개편 및 결제 연결 개편',
+      '최장 약 4 ~ 5년의 레거시 정리 및 리팩토링',
+      '서비스 유지 보수',
+    ],
+    site: 'https://tpirates.com/',
+  },
   {
     name: '인어교주해적단 산지마켓',
     info: '산지에서 판매자들이 올린 상품을 바로 택배로 받아볼 수 있는 쇼핑몰',
@@ -61,7 +89,11 @@ export const MY_PROJECTS = [
     thumbnail: img_local_market_thumbnail,
     gif: img_local_market_gif,
     stack: ['Next.js', 'React', 'typescript', 'Styled Components', 'React Query', 'React Hook Form'],
-    result: ['기획전 및 카테고리 시스템 추가', '품목 및 개시글 관리를 위한 어드민 시스템 구성 추가', '서비스 유지 보수'],
+    result: [
+      '기획전 및 카테고리 시스템 추가',
+      '품목 및 개시글 관리를 위한 어드민 시스템 구성 추가',
+      '서비스 유지 보수',
+    ],
     site: 'https://market.tpirates.com/',
   },
   {
