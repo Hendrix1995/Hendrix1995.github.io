@@ -67,9 +67,9 @@ export default function ProjectInfoContainer({
 
         <div className={tw`flex justify-start gap-10 mt-5 mo:(flex-col)`}>
           <img
-            className={tw`w-1/2 h-[${SECTION_HEIGHT / 1.8}px] border-1 border-[#e5e5e5] rounded-10 mo:(w-full h-[${
-              SECTION_HEIGHT / 4
-            }px])`}
+            className={tw`w-1/2 h-[${
+              SECTION_HEIGHT / 1.8
+            }px] border-1 border-[#e5e5e5] rounded-10 object-center mo:(w-full h-[${SECTION_HEIGHT / 4}px])`}
             src={selectedProject?.gif}
             loading='lazy'
             alt='selectedProject'

@@ -11,3 +11,4 @@ export { default as img_ittang_gif } from './img_ittang_gif.gif';
 export { default as img_local_market_thumbnail } from './img_local_market_thumbnail.webp';
 export { default as img_local_market_gif } from './img_local_market_gif.gif';
 export { default as img_fish_market_thumbnail } from './img_fish_market_thumbnail.webp';
+export { default as img_fish_market } from './img_fish_market.gif';
